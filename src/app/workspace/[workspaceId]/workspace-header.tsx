@@ -6,7 +6,7 @@ import {
   DropdownMenuSeparator,
 } from "@/components/ui/dropdown-menu";
 import { Button } from "@/components/ui/button";
-import { Doc } from "@/lib/validators/workspace";
+import { Doc } from "../../../../convex/_generated/dataModel";
 import { ChevronDown, SquarePen, ListFilter } from "lucide-react";
 import { Hint } from "@/components/hint";
 import { PreferencesModal } from "./Preferences-modal";
