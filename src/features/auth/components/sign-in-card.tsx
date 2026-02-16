@@ -15,7 +15,7 @@ import { use, useState } from "react";
 import { useAuthActions } from "@convex-dev/auth/react";
 import { TriangleAlert } from "lucide-react";
 interface SignInCardProps {
-    setState?: (state: "signIn" | "signUp") => void;
+    setState: (state: "signIn" | "signUp") => void;
 }
 
 
